@@ -15,9 +15,11 @@ body{
     font-weight: 200;
     color: #fff;
     padding: 0 7px;
+    position: relative;
+    z-index: 1;
 }
 .container{
-    background: rgb(227, 203, 247,0.5);
+    background: rgb(122, 89, 150);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -25,6 +27,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 10px;
     color: #fff;
+    z-index: 100;
     .group{
         text-align: center;
     
