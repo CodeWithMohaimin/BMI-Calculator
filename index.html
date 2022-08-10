@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI || Programmer Mohaimin</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <h1 class="page_header">BMI Calculator With Vanilla Javascript</h1>
+    <div class="container">
+       <div class="group">
+        <div class="kg">
+            <label for="kg">Enter Your Weight(kg)</label>
+            <input type="number" id="kg" placeholder="Type here...">
+        </div>
+        <div class="height">
+            <label for="height">Enter Your Height(inch)</label>
+            <input type="number" id="height" placeholder="Type here...">
+        </div>
+       </div>
+
+        <div class="btn">
+            <button id="calculate-btn">Calculate</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <div class="result_container">
+            <p>Your BMI is</p>
+            <div id="result"></div>
+            <p id="toast-message"></p>
+        </div>
+    
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
